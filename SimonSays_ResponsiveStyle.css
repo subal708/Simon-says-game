@@ -1,0 +1,108 @@
+@media (max-width: 365px) and (min-width: 340px) {
+
+    /* .game {
+        width: 340px;
+    } */
+    .score-box {
+        margin: 0px 8px;
+    }
+}
+
+@media (max-width: 1025px) and (min-width: 760px) {
+    .game {
+        width: 460px;
+    }
+    .pad {
+        width: 180px;
+        height: 180px;
+        border-radius: 22px;
+        border: 4.5px solid #1f2b46;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .pads {
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+        /* 2×2 grid */
+        justify-content: center;
+        /* center grid */
+        gap: 25px;
+        /* space between pads */
+        margin: 33px 0;
+    }
+    .score-box{
+        font-size: 1.3rem;
+    }
+    .btn{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media (max-width: 340px) {
+    .game {
+        width: 305px;
+    }
+
+    .pad {
+        width: 135px;
+        height: 135px;
+        border-radius: 14px;
+        border: 3px solid #1f2b46;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .pads {
+        display: grid;
+        grid-template-columns: repeat(2, 135px);
+        /* 2×2 grid */
+        justify-content: center;
+        /* center grid */
+        gap: 20px;
+        /* space between pads */
+        margin: 30px 0;
+    }
+    .buttons {
+        padding: 0px 8px;
+    }
+}
+
+@media (max-width: 300px) {
+    body{
+        width: 300px;
+    }
+    .score-box {
+        margin: 0px 8px;
+    }
+
+    .game {
+        width: 290px;
+    }
+
+    .pad {
+        width: 120px;
+        height: 120px;
+        border-radius: 12px;
+        border: 2.5px solid #1f2b46;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .pads {
+        display: grid;
+        grid-template-columns: repeat(2, 120px);
+        /* 2×2 grid */
+        justify-content: center;
+        /* center grid */
+        gap: 18px;
+        /* space between pads */
+        margin: 26px 0;
+    }
+
+    .buttons {
+        padding: 0px 8px;
+    }
+    .score-box{
+        font-size: 0.8rem;
+    }
+    
+}

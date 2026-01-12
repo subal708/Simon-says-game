@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <!-- to add icon -->
+    <link rel="icon" href="SimonSaysGameFavIcon.png">
+    <link rel="stylesheet" href="SimonSaysStyle.css">
+    <link rel="stylesheet" href="SimonSays_ResponsiveStyle.css">
+</head>
+
+<body>
+    <!-- GAME UI STRUCTURE -->
+    <div class="game">
+        <h1>Simon Says Game</h1>
+        <!-- Score & Level Section -->
+        <div class="score-box">
+            <div class="score-row">
+                <span>Highest Score: <Span class="highScore">0</Span></span>
+                <span>Current Score: <Span class="currScore">0</Span></span>
+            </div>
+            <div class="level">Click "Start" to play the Game</div>
+        </div>
+
+        <!-- Simon Pads -->
+        <div class="pads">
+            <div class="pad red" id="red" ></div>
+            <div class="pad green" id="green" ></div>
+            <div class="pad yellow" id="yellow" ></div>
+            <div class="pad purple" id="purple"></div>
+        </div>
+
+        <!-- Control Buttons -->
+        <div class="buttons">
+            <div class="btn new">Start</div>
+            <div class="btn reset">Reset</div>
+        </div>
+
+    </div>
+    <script src="SimonSaysScript.js"></script>
+
+</body>
+
+</html>
